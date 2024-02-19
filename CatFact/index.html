@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Assest/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CatFact App | Hossein Yadegarnia</title>
+</head>
+<body>
+    <a href="#" id="header"><img src="Assest/header-logo.png" alt="logo"style="margin: 20px; height: 130px; width: 130px;"></a>
+
+    <center><div class="facts-box" id="facts-box">
+        <label for="fact-many">Enter The Fact Many : </label>
+        <h5 style="color: #ff0000; margin-top: 2px;">It is suggested not to be too much 1-5 :)</h5>
+        <input type="number" id="fact-many" title="Fact Many" value="1" oninvalid="this.setCustomValidity('Please Enter!')" required />
+        <button class="btn-submit" onclick="getFact()">Submit</button>
+        <div class="facts" id="facts"></div>
+    </div></center>
+
+</body>
+<script src="app.js"></script>
+</html>
