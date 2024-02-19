@@ -4,6 +4,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
-**CatFact App is a fun javascript(html,css,js) app for trying cat fact api and working with fetch for connecting and getting data from api.:tw-1f617:**
+**CatFact App is a fun javascript(html,css,js) app for trying cat fact api and working with fetch for connecting and getting data from api.😀**
 
 `JSON API from :` [catfact.ninja](https://catfact.ninja/ "catfact.ninja")
