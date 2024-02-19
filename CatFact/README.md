@@ -1,5 +1,5 @@
 # CatFact App
-#### Javascript Fun App For Provide Facts About Cats ! :tw-1f601:
+#### Javascript Fun App For Provide Facts About Cats ! 😁:
 ![Logo](https://i.ibb.co/N3xLJBf/header-logo.png "Logo")
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
