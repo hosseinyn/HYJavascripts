@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bungee+Spice&family=Lato:ital@0;1&family=Open+Sans&family=Poppins&family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa' , sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 5px;
+}
+  ::-webkit-scrollbar-thumb {
+    background-color: #87c2fd;
+    border-radius: 6px;
+}
+
+body{
+    position: relative;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('Assest/Background.jpg');
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(5px);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.facts-box{
+    position: relative;
+    top: -100px;
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    min-height: 470px;
+    width: 430px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.facts-box label{
+    font-size: 1.2rem;
+}
+
+.facts-box input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.facts-box .btn-submit{
+    width: 110px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #228af2;
+    color: #ffffffff;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 52px;
+}
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    gap: 10px;
+}
+
+.facts .fact-box{
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    min-height: 120px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.facts .fact-box img{
+    height: 40px; 
+    width: 40px;
+}
