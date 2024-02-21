@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 5px;
+}
+  ::-webkit-scrollbar-thumb {
+    background-color: #87c2fd;
+    border-radius: 6px;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(90deg , #24C6DC, #514A9D);
+}
+
+.todo{
+    min-height: 240px;
+    width: 528.63px;
+    background-color: #ffff;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 160px;
+}
+
+.todo input{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(0, 157, 255);
+    border-radius: 4px;
+}
+
+.todo button:not([class]){
+    width: 90px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #006eff 0%, #0008ff 100%);
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.todo button:not([class]):hover{
+    transform: scale(1.06);
+}
+
+.todo button,input{
+    margin-top: 14px;
+}
+
+.todo .tasks{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo .tasks input{
+    height: initial;
+    width: initial;
+}
+
+.task label{
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.remove-btn{
+    width: 40px;
+    height: 25px;
+}
