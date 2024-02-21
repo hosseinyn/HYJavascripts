@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('Assest/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(8px);
+}
+
+
+h1,h4,h3,h2,p{
+    color: white;
+}
+
+.big{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.countdown .output{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 52px;
+    background: rgba(255, 255, 255, 0.388);
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(121, 121, 121, 0.76) 0px 1px 4px;
+}
+
+.countdown .output h4,p{
+    display: block;
+}
