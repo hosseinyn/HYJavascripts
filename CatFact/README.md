@@ -6,6 +6,9 @@
 
 **CatFact App is a fun javascript(html,css,js) app for trying cat fact api and working with fetch for connecting and getting data from api.😀**
 
+# What Do You Can Learn With This Project?
+**You can learn working with fetch function and working with json api in javascript🧑‍🎓**
+
 ![screen shot](https://i.ibb.co/gDqztvh/screenshot.png "screen shot")
 
-`JSON API from :` [catfact.ninja](https://catfact.ninja/ "catfact.ninja")
+`JSON Web API from :` [catfact.ninja](https://catfact.ninja/ "catfact.ninja")
