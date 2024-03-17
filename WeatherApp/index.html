@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assest/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App | Hossein Yadegarnia</title>
+</head>
+<body>
+    
+    <center><div class="weather" id="weather">
+        <h2>Weather App</h2>
+        <div class="search">
+            <input type="text" placeholder="Enter The City Name..." id="city-name">
+            <button class="btn-search" onclick="searchWeather()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="result" id="result">
+            <img src="" alt="mode" id="image">
+            <h1 id="deg">22℃</h1>
+            <h3 id="mode">Cloud</h3>
+            <br>
+            <h2 id="speed"></h2>
+        </div>
+    </div></center>
+
+</body>
+
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/3813a0f9ce.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</html>

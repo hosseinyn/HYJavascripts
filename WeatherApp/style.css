@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: url('Assest/background.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.weather{
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: 350px;
+    height: 100px;
+    /* width: 400px;
+    height: 450px; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 7px;
+}
+
+.weather .search input{
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.weather .search .btn-search{
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.result{
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.result img{
+    height: 170px;
+    width: 170px;
+}
