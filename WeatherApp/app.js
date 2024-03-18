@@ -16,7 +16,7 @@ const searchWeather = () => {
         swal("Please Enter The City!", "You don't enter the city name :/ ", "error");
         return;
     }
-    let api_key = "6105e1036914b5f0c421839bb5485290"
+    let api_key = "" // Your API Key
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&units=metric&appid=${api_key}`
     weather_box.style.width = "400px";
     weather_box.style.height = "450px";
